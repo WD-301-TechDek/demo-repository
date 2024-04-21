@@ -1,0 +1,99 @@
+/* pets.component.css */
+
+/* General styles */
+.landing-page {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.header p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* featu.features styles */
+/* Add this CSS to your pets.component.css file */
+
+/* Add this CSS to your pets.component.css file */
+
+/* Targeting only the featu.features section */
+.features .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .features .feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px 20px; /* Adjust margin between boxes */
+  }
+  
+  .features .box-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .features .box-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .features .icon {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .features .content {
+    width: 100%;
+  }
+  
+  .features .content img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .features .content p {
+    color: #333;
+  }
+
+  

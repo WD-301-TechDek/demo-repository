@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-pet-form, .pet-card {
+    background-color: #f0f0f0; /* Lighter background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Slightly rounder corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .form-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: blue !important;
+    color: #fff;
+  }
+  
+  .btn-update {
+    background-color: #28a745 !important; /* Green color for update button */
+    color: #fff;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545 !important; /* Red color for delete button */
+    color: #fff;
+  }
+  
+  .pet-details {
+    margin-bottom: 10px;
+  }
+  
+  .update-pet-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pet-details p, .update-pet-form input {
+    margin-bottom: 5px;
+  }
+  

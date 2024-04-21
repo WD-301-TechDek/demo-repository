@@ -1,0 +1,39 @@
+<div class="container">
+  <header>
+    <h2>Add Pet</h2>
+  </header>
+  <div class="add-pet-form">
+    <input class="form-input" id="newPetName" placeholder="Name">
+    <input class="form-input" id="newPetType" placeholder="Type">
+    <input class="form-input" id="newPetBreed" placeholder="Breed">
+    <input class="form-input" id="newPetAge" type="number" placeholder="Age">
+    <input class="form-input" id="newPetDescription" placeholder="Description">
+    <button class="btn-input" (click)="addPet()">Add Pet</button>
+  </div>
+</div>
+
+<div *ngFor="let pet of pets" class="pet-card">
+  <!-- Display pet details -->
+  <div class="pet-details">
+    <p><strong>Name:</strong> {{ pet.name }}</p>
+    <p><strong>Type:</strong> {{ pet.type }}</p>
+    <p><strong>Breed:</strong> {{ pet.breed }}</p>
+    <p><strong>Age:</strong> {{ pet.age }}</p>
+    <p><strong>Description:</strong> {{ pet.description }}</p>
+  </div>
+
+  <!-- Input fields for updating pet -->
+  <div class="update-pet-form">
+    <input class="form-input" [id]="'updatePetName' + pet.id" [value]="pet.name">
+    <input class="form-input" [id]="'updatePetType' + pet.id" [value]="pet.type">
+    <input class="form-input" [id]="'updatePetBreed' + pet.id" [value]="pet.breed">
+    <input class="form-input" [id]="'updatePetAge' + pet.id" [value]="pet.age" type="number">
+    <input class="form-input" [id]="'updatePetDescription' + pet.id" [value]="pet.description">
+
+    <!-- Button to update pet -->
+    <button class="btn-update" (click)="updatePet(pet)">Update Pet</button>
+
+    <!-- Button to delete pet -->
+    <button class="btn-delete" (click)="deletePet(pet.id)">Delete Pet</button>
+  </div>
+</div>

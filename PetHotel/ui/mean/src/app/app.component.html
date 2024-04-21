@@ -1,0 +1,46 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <!-- Logo and navbar items container -->
+      <div class="left">
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/images/logo2.png" alt="Logo">
+        </a>
+      </div>
+      <div style="align-content: center;" class="d-flex justify-content-between align-items-center w-100">
+        <!-- Logo on the left side -->
+        <!-- Links on the right side -->
+        <div class="right">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/pets" routerLinkActive="active">Pets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<div style="height: 100%; padding: 100px 0;" class="main">
+  <router-outlet></router-outlet>
+</div>
+
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container text-center">
+    <span class="text-muted">TechDek Hotel for Pets! &copy; 2024</span>
+  </div>
+</footer>

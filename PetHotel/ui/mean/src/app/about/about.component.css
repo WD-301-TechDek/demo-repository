@@ -1,0 +1,38 @@
+/* about-hotel.component.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .about-text {
+    flex: 2; /* Take more space than image */
+    margin-left: 20px; /* Add space between image and text */
+  }
+  
+  .about-image {
+    margin: 0 50px ;
+  }
+
+  .about-image img {
+    max-width: 300px; /* Set maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    float: left;
+  }
+  
+  h2 {
+    font-size: 24px; /* Increase font size of heading */
+  }
+  
+  p {
+    font-size: 18px; /* Increase font size of paragraphs */
+  }
+  

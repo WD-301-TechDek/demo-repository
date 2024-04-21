@@ -1,0 +1,76 @@
+/* app.component.css */
+
+/* Custom styles for the navbar */
+
+/* Ensure the header is sticky and above other content */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #34495e; /* Change navbar background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+/* Add padding to prevent content from being hidden under the header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px; /* Adjust based on your header height */
+}
+
+/* Customize navbar brand color and align it with navbar */
+.navbar-brand {
+  color: #ffffff; /* Change navbar brand color */
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif; /* Use custom font */
+  margin-right: auto; /* Push logo to the far left */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Align items vertically */
+}
+
+/* Add icon to navbar brand */
+.navbar-brand img {
+  width: 15%; /* Adjust icon size */
+}
+
+/* Adjust navbar link styles */
+.nav-item .nav-link {
+  color: #ffffff; /* Change navbar link color */
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px; /* Add border-radius to navbar links */
+  transition: background-color 0.3s, transform 0.2s; /* Add transition for smoother effects */
+}
+
+/* Add gradient background and subtle shadow on hover for navbar links */
+.nav-item .nav-link:hover {
+  background: linear-gradient(to right, #3498db, #2980b9); /* Change background to gradient on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+/* Flexbox styling for navbar items */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align navbar items */
+  list-style: none; /* Remove bullets */
+}
+
+/* Add separator between navbar items */
+.nav-item:not(:last-child) {
+  margin-right: 20px; /* Add spacing between navbar items */
+}
+
+/* Custom styles for the footer */
+.footer {
+  background-color: #2c3e50; /* Change footer background color */
+  color: #ffffff; /* Change footer text color */
+  padding: 20px 0; /* Add padding top and bottom */
+  text-align: center; /* Center align text */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+/* Add gradient background on hover for footer */
+.footer:hover {
+  background: linear-gradient(to right, #34495e, #2c3e50); /* Change background to gradient on hover */
+}
