@@ -1,4 +1,4 @@
-TechDek - Angular Pet Hotel Management System
+#TechDek - Angular Pet Hotel Management System
 Welcome to TechDek, the Angular Pet Hotel Management System! This README provides an overview of the application background, its structure, and the frameworks and components used.
 
 Background
